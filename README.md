@@ -1,17 +1,18 @@
-## Project Specifications
+# Task Tracker CLI
 
-### Task Tracker CLI
+A Command Line Interface (CLI) application to manage your tasks and to-do list effectively.
 
-Build a Command Line Interface (CLI) application to manage your tasks and to-do list effectively.
+## Description
+In this project I built simple command line interface (CLI) to track what you need to do, what you have done, and what you are currently working on. This project was intented to demonstrate my skills, including working with the filesystem, handling user inputs, and building a simple CLI application.
 
-#### Link to Project Description
-[Task Tracker Project Description](https://roadmap.sh/projects/task-tracker)
+
+[Project Description Link](https://roadmap.sh/projects/task-tracker)
 
 ---
 
-### Features and Requirements
+## Features and Requirements
 
-#### Core Features:
+### Core Features:
 - **Add, Update, and Delete tasks**
 - **Mark tasks as**:
   - In progress
@@ -20,7 +21,7 @@ Build a Command Line Interface (CLI) application to manage your tasks and to-do 
   - All tasks
   - Tasks by status: Done, To-Do, In Progress
 
-#### Implementation Details:
+### Implementation Details:
 1. **Input Handling**: 
    - Accept user actions and inputs as command-line arguments.
    - Use positional arguments to structure commands.
@@ -41,7 +42,7 @@ Build a Command Line Interface (CLI) application to manage your tasks and to-do 
    - Do not use external libraries or frameworks.
    - Handle errors and edge cases gracefully.
 
-#### Command Usage Examples
+### Command Usage Examples
 ```bash
 # Adding a new task
 task-cli add "Buy groceries"
